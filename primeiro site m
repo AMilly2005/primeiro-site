@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Primeiro CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Oi mãe!</h1>
+  <p>Este é meu primeiro código CSS.</p>
+  <button>Clique aqui!</button>
+  <p id="mensagem"></p>
+
+  <script>
+    document.querySelector('button').addEventListener('click', function() {
+      document.getElementById('mensagem').innerHTML = 'Tenha uma ótima tarde!';
+    });
+  </script>
+</body>
+</html>
